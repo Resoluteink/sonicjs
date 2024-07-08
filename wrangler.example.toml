@@ -12,14 +12,14 @@ account_id = "99db39ee56cd4ac9049256667927f9ff"
 # Run the `wrangler kv:namespace create sonicjs --preview` command and copy the preview_id below
 # Only update the preview_id and id, leave the binding name as "KVDATA"
 kv_namespaces = [
-  { binding = "KVDATA", preview_id="${KV_NAMESPACE_PREVIEW_ID}", id = "${KV_NAMESPACE_ID}" }
+  { binding = "KVDATA", preview_id="cb4a61bc9dc64769bb87303317374a8e", id = "b9a841561ea14550b1d52a06a96e7a87" }
 ]
 
 # Run the `wrangler d1 create sonicjs` command and copy the id below
 [[d1_databases]]
 binding = "D1DATA"
-database_name = "sonicjs"
-database_id = "${DATABASE_ID}"
+database_name = "SonicJS"
+database_id = "86763df2-0fc7-4f16-a4be-8c425c4ece4b"
 
 # Using Cloudflare R2 (similar to AWS S3) is only necessary if you plan to use SonicJs to manage file assets
 # Run the `wrangler r2 bucket create sonicjs` command and uncomment the section below
