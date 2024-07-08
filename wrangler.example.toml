@@ -6,7 +6,7 @@ main = "src/server.ts"
 # Enter your account id
 # This can be found at https://dash.cloudflare.com/ --> Workers & Pages
 #  --> Overview, then in the right sidebar
-account_id = "${ACCOUNT_ID}"
+account_id = "99db39ee56cd4ac9049256667927f9ff"
 
 # Run the `wrangler kv:namespace create sonicjs` command and copy the id below
 # Run the `wrangler kv:namespace create sonicjs --preview` command and copy the preview_id below
